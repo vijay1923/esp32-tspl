@@ -1,0 +1,10 @@
+TSPLPrinter	KEYWORD1
+TSPLPrinterStatus	KEYWORD1
+TSPLLabelConfig	KEYWORD1
+
+begin	KEYWORD2
+printQR	KEYWORD2
+pollStatus	KEYWORD2
+statusToText	KEYWORD2
+
+config	KEYWORD2
