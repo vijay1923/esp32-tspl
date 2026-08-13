@@ -1,0 +1,4 @@
+// .vs code and build files
+.vs/
+build/
+.vscode/
