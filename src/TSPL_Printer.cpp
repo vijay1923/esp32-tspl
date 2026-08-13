@@ -50,7 +50,7 @@ bool TSPLPrinter::printQR(const char *data)
         "GAP %s mm,%s mm\r\n"
         "DIRECTION %u\r\n"
         "CLS\r\n"
-        "QRCODE %u,%u,%c,%u,%c,%u,\"%s\"\r\n"
+        "DMATRIX %u,%u,%c,%u,%c,%u,\"%s\"\r\n"
         "PRINT %u,%u\r\n",
         sizeW, sizeH, gapW, gapH,
         (unsigned)config.direction,
