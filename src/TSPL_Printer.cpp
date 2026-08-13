@@ -4,7 +4,7 @@
 // trailing null byte (4 bytes total). This exact form - rather than writing
 // the 3 command bytes individually - is what was confirmed reliable on the
 // actual printer hardware during bench testing; kept as-is intentionally.
-static const char STATUS_QUERY_CMD[] = "\x1B!?";
+static const char STATUS_QUERY_CMD[] = "\x1B!?"; // status query command, 3 bytes + null terminator
 
 TSPLPrinter::TSPLPrinter(HardwareSerial &serialPort)
     : _serial(serialPort)
