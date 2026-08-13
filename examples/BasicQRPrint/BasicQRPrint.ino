@@ -36,7 +36,7 @@ void setup()
 
         if (status == TSPLPrinterStatus::Normal)
         {
-            if (printer.printQR("HELLO-WORLD-001"))
+            if (printer.printQR("Printer Online"))
             {
                 Serial.println("QR job sent.");
             }
