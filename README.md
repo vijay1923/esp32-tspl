@@ -20,7 +20,7 @@ Standalone for now - unzip and drop the `TSPLPrinter` folder into your
 TSPLPrinter printer(Serial2);   // pass whichever HardwareSerial you're wiring it to
 
 void setup() {
-    printer.begin(9600, /*rxPin=*/17, /*txPin=*/35);
+    printer.begin(9600, /*rxPin=*, /*txPin=*/);
 
     // optional - defaults to a 60x40mm label
     printer.config.size_width_mm = 60.0f;
