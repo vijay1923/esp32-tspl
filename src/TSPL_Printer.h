@@ -28,7 +28,7 @@ enum class TSPLPrinterStatus : uint8_t
 
 // Label + QR job configuration. Public fields, set directly before calling
 // printQR() - e.g. printer.config.size_width_mm = 25.0f;
-// Defaults match a commonly-used starting point (60mm x 40mm label).
+// Defaults match a commonly-used starting point (60mm x 40mm label)
 struct TSPLLabelConfig
 {
     float size_width_mm   = 60.0f;   // label width, mm
@@ -45,7 +45,7 @@ struct TSPLLabelConfig
     uint16_t qr_rotation  = 0;       // 0, 90, 180, or 270
 
     uint8_t print_sets    = 1;       // TSPL PRINT m parameter
-    uint8_t print_copies  = 1;       // TSPL PRINT n parameter
+    uint8_t print_copies  = 1;       // TSPL PRINT n parameter 
 };
 
 class TSPLPrinter
