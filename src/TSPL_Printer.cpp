@@ -6,10 +6,7 @@
 // actual printer hardware during bench testing; kept as-is intentionally.
 static const char STATUS_QUERY_CMD[] = "\x1B!?"; // status query command, 3 bytes + null terminator
 
-TSPLPrinter::TSPLPrinter(HardwareSerial &serialPort)
-    : _serial(serialPort)
-{
-}
+TSPLPrinter::TSPLPrinter(HardwareSerial &serialPort) : _serial(serialPort){}
 
 void TSPLPrinter::begin(unsigned long baud, int8_t rxPin, int8_t txPin)
 {
